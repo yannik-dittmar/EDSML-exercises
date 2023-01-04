@@ -1,7 +1,7 @@
 from collections import namedtuple
 import math
 
-DATA_FILE = '05/data/glove.6B.300d.txt'
+DATA_FILE = './data/glove.6B.300d.txt'
 NAME = 'dittmar' # yannik isn't available, so I chose my surname
 
 WordItem = namedtuple("Word", "word vector")
